@@ -1,0 +1,6 @@
+/home/achiisan/Desktop/LOLCode/LOLCode/LOLCode/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/achiisan/Desktop/LOLCode/LOLCode/LOLCode/obj/x86/Debug/LOLCode.gtk-gui.gui.stetic
+/home/achiisan/Desktop/LOLCode/LOLCode/LOLCode/bin/Debug/LOLCode.exe.mdb
+/home/achiisan/Desktop/LOLCode/LOLCode/LOLCode/bin/Debug/LOLCode.exe
+/home/achiisan/Desktop/LOLCode/LOLCode/LOLCode/obj/x86/Debug/LOLCode.exe
+/home/achiisan/Desktop/LOLCode/LOLCode/LOLCode/obj/x86/Debug/LOLCode.exe.mdb

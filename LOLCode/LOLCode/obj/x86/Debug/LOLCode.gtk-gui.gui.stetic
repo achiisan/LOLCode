@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/LOLCode.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="1173 530">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="DefaultWidth">372</property>
+    <property name="DefaultHeight">344</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed3">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.ScrolledWindow" id="GtkScrolledWindow">
+            <property name="MemberName" />
+            <property name="WidthRequest">200</property>
+            <property name="HeightRequest">277</property>
+            <property name="ShadowType">In</property>
+            <child>
+              <widget class="Gtk.TextView" id="textview3">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShowScrollbars">True</property>
+                <property name="Text" translatable="yes" />
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">30</property>
+            <property name="Y">36</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.Table" id="table1">
+            <property name="MemberName" />
+            <property name="WidthRequest">356</property>
+            <property name="HeightRequest">278</property>
+            <property name="NColumns">2</property>
+            <property name="RowSpacing">6</property>
+            <property name="ColumnSpacing">6</property>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="scrolledwindow1">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TextView" id="textview5">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Text" translatable="yes" />
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="LeftAttach">1</property>
+                <property name="RightAttach">2</property>
+                <property name="AutoSize">True</property>
+                <property name="XExpand">True</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">True</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="scrolledwindow2">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TextView" id="textview4">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Text" translatable="yes">
+</property>
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="AutoSize">True</property>
+                <property name="XExpand">True</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">True</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">293</property>
+            <property name="Y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Lexemes</property>
+          </widget>
+          <packing>
+            <property name="X">445</property>
+            <property name="Y">16</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Table" id="table2">
+            <property name="MemberName" />
+            <property name="WidthRequest">338</property>
+            <property name="HeightRequest">277</property>
+            <property name="NColumns">2</property>
+            <property name="RowSpacing">6</property>
+            <property name="ColumnSpacing">6</property>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="scrolledwindow3">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TextView" id="textview7">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Text" translatable="yes" />
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="LeftAttach">1</property>
+                <property name="RightAttach">2</property>
+                <property name="AutoSize">True</property>
+                <property name="XExpand">True</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">True</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.ScrolledWindow" id="scrolledwindow4">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="ShadowType">In</property>
+                <child>
+                  <widget class="Gtk.TextView" id="textview6">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Text" translatable="yes" />
+                  </widget>
+                </child>
+              </widget>
+              <packing>
+                <property name="AutoSize">True</property>
+                <property name="XExpand">True</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">True</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="X">719</property>
+            <property name="Y">39</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label3">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Symbol Table</property>
+          </widget>
+          <packing>
+            <property name="X">835</property>
+            <property name="Y">12</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Analyze</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButton1Clicked" />
+          </widget>
+          <packing>
+            <property name="X">97</property>
+            <property name="Y">322</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Input</property>
+            <property name="UseMarkup">True</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">109</property>
+            <property name="Y">12</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="button2">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Load File</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnButton2Clicked" />
+          </widget>
+          <packing>
+            <property name="X">92</property>
+            <property name="Y">361</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
