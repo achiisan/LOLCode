@@ -33,21 +33,27 @@ public partial class MainWindow
 	
 	private global::Gtk.Label label3;
 	
-	private global::Gtk.Button button1;
-	
 	private global::Gtk.Label label1;
 	
+	private global::Gtk.Button button1;
+	
 	private global::Gtk.Button button2;
+	
+	private global::Gtk.ScrolledWindow GtkScrolledWindow1;
+	
+	private global::Gtk.TextView textview8;
 
 	protected virtual void Build ()
 	{
 		global::Stetic.Gui.Initialize (this);
 		// Widget MainWindow
+		this.WidthRequest = 800;
+		this.HeightRequest = 600;
 		this.Name = "MainWindow";
 		this.Title = global::Mono.Unix.Catalog.GetString ("MainWindow");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
-		this.DefaultWidth = 372;
-		this.DefaultHeight = 344;
+		this.DefaultWidth = 1100;
+		this.DefaultHeight = 768;
 		// Container child MainWindow.Gtk.Container+ContainerChild
 		this.fixed3 = new global::Gtk.Fixed ();
 		this.fixed3.Name = "fixed3";
@@ -157,25 +163,25 @@ public partial class MainWindow
 		w14.X = 835;
 		w14.Y = 12;
 		// Container child fixed3.Gtk.Fixed+FixedChild
-		this.button1 = new global::Gtk.Button ();
-		this.button1.CanFocus = true;
-		this.button1.Name = "button1";
-		this.button1.UseUnderline = true;
-		this.button1.Label = global::Mono.Unix.Catalog.GetString ("Analyze");
-		this.fixed3.Add (this.button1);
-		global::Gtk.Fixed.FixedChild w15 = ((global::Gtk.Fixed.FixedChild)(this.fixed3 [this.button1]));
-		w15.X = 97;
-		w15.Y = 322;
-		// Container child fixed3.Gtk.Fixed+FixedChild
 		this.label1 = new global::Gtk.Label ();
 		this.label1.Name = "label1";
 		this.label1.LabelProp = global::Mono.Unix.Catalog.GetString ("Input");
 		this.label1.UseMarkup = true;
 		this.label1.UseUnderline = true;
 		this.fixed3.Add (this.label1);
-		global::Gtk.Fixed.FixedChild w16 = ((global::Gtk.Fixed.FixedChild)(this.fixed3 [this.label1]));
-		w16.X = 109;
-		w16.Y = 12;
+		global::Gtk.Fixed.FixedChild w15 = ((global::Gtk.Fixed.FixedChild)(this.fixed3 [this.label1]));
+		w15.X = 109;
+		w15.Y = 12;
+		// Container child fixed3.Gtk.Fixed+FixedChild
+		this.button1 = new global::Gtk.Button ();
+		this.button1.CanFocus = true;
+		this.button1.Name = "button1";
+		this.button1.UseUnderline = true;
+		this.button1.Label = global::Mono.Unix.Catalog.GetString ("Analyze");
+		this.fixed3.Add (this.button1);
+		global::Gtk.Fixed.FixedChild w16 = ((global::Gtk.Fixed.FixedChild)(this.fixed3 [this.button1]));
+		w16.X = 45;
+		w16.Y = 322;
 		// Container child fixed3.Gtk.Fixed+FixedChild
 		this.button2 = new global::Gtk.Button ();
 		this.button2.CanFocus = true;
@@ -184,8 +190,23 @@ public partial class MainWindow
 		this.button2.Label = global::Mono.Unix.Catalog.GetString ("Load File");
 		this.fixed3.Add (this.button2);
 		global::Gtk.Fixed.FixedChild w17 = ((global::Gtk.Fixed.FixedChild)(this.fixed3 [this.button2]));
-		w17.X = 92;
-		w17.Y = 361;
+		w17.X = 126;
+		w17.Y = 324;
+		// Container child fixed3.Gtk.Fixed+FixedChild
+		this.GtkScrolledWindow1 = new global::Gtk.ScrolledWindow ();
+		this.GtkScrolledWindow1.Name = "GtkScrolledWindow1";
+		this.GtkScrolledWindow1.ShadowType = ((global::Gtk.ShadowType)(1));
+		// Container child GtkScrolledWindow1.Gtk.Container+ContainerChild
+		this.textview8 = new global::Gtk.TextView ();
+		this.textview8.WidthRequest = 1050;
+		this.textview8.HeightRequest = 300;
+		this.textview8.CanFocus = true;
+		this.textview8.Name = "textview8";
+		this.GtkScrolledWindow1.Add (this.textview8);
+		this.fixed3.Add (this.GtkScrolledWindow1);
+		global::Gtk.Fixed.FixedChild w19 = ((global::Gtk.Fixed.FixedChild)(this.fixed3 [this.GtkScrolledWindow1]));
+		w19.X = 28;
+		w19.Y = 363;
 		this.Add (this.fixed3);
 		if ((this.Child != null)) {
 			this.Child.ShowAll ();
@@ -193,6 +214,5 @@ public partial class MainWindow
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		this.button1.Clicked += new global::System.EventHandler (this.OnButton1Clicked);
-		this.button2.Clicked += new global::System.EventHandler (this.OnButton2Clicked);
 	}
 }

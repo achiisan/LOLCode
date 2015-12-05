@@ -1,10 +1,14 @@
 ﻿<Properties StartupItem="LOLCode/LOLCode.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LOLCode/MainWindow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LOLCode/Dialog.cs">
     <Files>
       <File FileName="LOLCode/Program.cs" Line="1" Column="1" />
-      <File FileName="LOLCode/MainWindow.cs" Line="180" Column="29" />
-      <File FileName="LOLCode/Properties/Lexeme.cs" Line="1" Column="1" />
+      <File FileName="LOLCode/MainWindow.cs" Line="207" Column="53" />
+      <File FileName="LOLCode/Properties/Lexeme.cs" Line="6" Column="22" />
+      <File FileName="LOLCode/SyntaxChecker.cs" Line="188" Column="56" />
+      <File FileName="LOLCode/GeneratedLexemes.cs" Line="13" Column="41" />
+      <File FileName="LOLCode/Dialog.cs" Line="1" Column="1" />
+      <File FileName="LOLCode/Properties/GeneratedCode.cs" Line="175" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

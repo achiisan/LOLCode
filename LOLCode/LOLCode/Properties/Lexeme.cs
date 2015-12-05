@@ -1,8 +1,9 @@
 ﻿using System;
+using Gtk;
 
 namespace LOLCode
 {
-	public class Lexeme
+	public class Lexeme	
 	{
 		public String lexeme;
 		public String classification;
